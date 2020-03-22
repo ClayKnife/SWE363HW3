@@ -1,0 +1,71 @@
+/*rakan alghurayri | s201618080 */
+.my-body{
+    background-color: #194260;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 10px dotted black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.my-navbar{
+    background-color: rgba(128, 128, 128, 0.8);
+}
+
+.my-brand{
+    font-size: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.my-info{
+    font-size: 1.5rem;
+    height: inherit;
+}
+
+.my-clickable-image{
+    cursor: pointer;
+    padding: 1px;
+}
+
+.my-clickable-image:hover{
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 0px;
+}
+
+.hidden{
+	display: none;
+}
+
+.my-card-type-1{
+    animation-name: my-card-type-1-animation;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    visibility: hidden;
+}
+
+@keyframes my-card-type-1-animation{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        visibility: visible;
+        opacity: 1;
+    }
+}
+
+.my-card-type-2{
+    animation-name: my-card-type-2-animation;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    visibility: hidden;
+}
+
+@keyframes my-card-type-2-animation{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        visibility: visible;
+        opacity: 1;
+    }
+}

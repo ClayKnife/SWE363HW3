@@ -1,0 +1,100 @@
+/*rakan alghurayri | s201618080*/
+.my-body{
+    background-color: #194260;
+    background-image: url("../images/portfolio-images/portfolio-bg.jpg");
+    background-image: url("../images/portfolio-images/portfolio-bg.jpg"), linear-gradient(90deg, #194260, #0967aa, #0767ac, #194260, #194260, #194260, #0967aa, #0767ac, #194260);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 10px dotted black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.my-navbar{
+    background-color: rgba(128, 128, 128, 0.5);
+}
+
+.my-brand{
+    font-size: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.my-info{
+    font-size: 1.5rem;
+    height: inherit;
+}
+
+.my-clickable-image{
+    cursor: pointer;
+    padding: 1px;
+}
+
+.my-clickable-image:hover{
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 0px;
+}
+
+.my-header{
+    margin-top: 150px;
+    margin-bottom: 150px;
+    background-image: url("../images/portfolio-images/transparent-image.png");
+    font-size: 1.5rem;
+    color: white;
+}
+
+.my-selfie{
+    margin-top: 40px;
+    width: 18rem;
+    background-color: black;
+    border: 10px double rgb(128, 128, 128, 0.5);
+    border-radius: 200px;
+}
+
+.my-card{
+    background-color: rgb(0, 0, 0, 0.5);
+    border: 2px solid rgb(128, 128, 128, 0.5);
+}
+
+.hidden{
+    display:none;
+}
+
+.my-card-type-1{
+    animation-name: my-card-type-1-animation;
+    animation-delay: 2s;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    visibility: hidden;
+}
+
+@keyframes my-card-type-1-animation{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        visibility: visible;
+        opacity: 1;
+    }
+}
+
+.my-card-type-2{
+    animation-name: my-card-type-2-animation;
+    animation-delay: 2s;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    visibility: hidden;
+}
+
+@keyframes my-card-type-2-animation{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        visibility: visible;
+        opacity: 1;
+    }
+}
+
+.card-img-top{
+    object-fit: cover;
+}

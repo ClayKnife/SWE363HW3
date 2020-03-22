@@ -1,0 +1,49 @@
+
+/*rakan alghurayri | s201618080*/
+.my-logo{
+    width: 100%; 
+    height: 6rem;
+    padding-left: 10px;;
+}
+
+.my-motto{
+    margin-right: 2rem;
+    text-align: center;
+    font-size: 2rem;
+    color:green;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.my-jumbotron{
+    background-image: url("../images/kfupm-images/jumbotron.jpg"); 
+    background-color: #cccccc; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    text-align: center;
+}
+
+.my-welcome{
+    max-width: 100%;
+    height: auto;
+}
+
+.my-container{
+    margin-bottom: 50px;
+}
+
+.my-section-header{
+    text-align: center;
+    font-family: fantasy;
+    color: aliceblue;
+}
+
+.my-card-image{
+    height: 200px;
+    width: 100%;
+}
+
+.my-carousel-slide{
+    width: 100%;
+    height: 100%;
+}

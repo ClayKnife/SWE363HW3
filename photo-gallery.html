@@ -1,0 +1,109 @@
+<!-- rakan alghurayri | s201618080 -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Photo Gallery</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/photo-gallery.css">
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="javascript/portfolio.js"></script>
+
+</head>
+<body class=my-body>
+	<!-- Navbar at the top -->
+  <nav class="my-navbar navbar navbar-expand-lg navbar-dark">
+    <a class="my-brand navbar-brand ml-2" href="portfolio.html">Rakan Alghurayri</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto mr-4">
+        <li class="nav-item">
+            <div class="nav-link">
+             <img class="my-clickable-image" src="images/portfolio-images/icons8-phone-50.png" alt="button for viewing phone number" onclick="toggleShow('number')">
+              <span id="number" class="my-info px-2 border-right hidden">+966 54 659 7444</span>
+            </div>
+        </li>
+        <li class="nav-item">
+            <div class="nav-link">
+                <img class="my-clickable-image" src="images/portfolio-images/icons8-email-50.png" alt="button for viewing email address" onclick="toggleShow('email')">
+                <span id="email" class="my-info px-2 border-right hidden">rakanalghurayri@gmail.com</span>
+            </div>
+        </li>
+        <li class="nav-item">
+            <div class="nav-link">
+                <img class="my-clickable-image" src="images/portfolio-images/icons8-linkedin-50.png" alt="button for viewing linkedin address" onclick="toggleShow('linkedin')">
+                <span id="linkedin" class="my-info px-2 border-right hidden"><a href="https://www.linkedin.com/in/rakangh/">Rakan Alghurayri</a></span>
+            </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Title of page -->
+  <div class="display-4 text-center text-white mt-5 mb-3">My Photo Gallery <br></div>
+
+  <!-- The photo gallery -->
+  <div class="container pt-5 border-top">
+    <div class="row">
+      <div class="col-lg-4 col-sm-6">
+        <div class="my-card-type-1 card mb-4">
+          <img class="card-img" src="images/photo-gallery/1.jpg" alt="image of three lamps">
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6">
+        <div class="my-card-type-2 card mb-4">
+          <img class="card-img" src="images/photo-gallery/2.jpg" alt="image of flower resting on leaf">
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6">
+        <div class="my-card-type-1 card mb-4">
+          <img class="card-img" src="images/photo-gallery/3.jpg" alt="image of abandoned home">
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6">
+        <div class="my-card-type-2 card mb-4">
+          <img class="card-img" src="images/photo-gallery/4.jpg" alt="image of corridor with exit sign">
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6">
+        <div class="my-card-type-1 card mb-4">
+          <img class="card-img" src="images/photo-gallery/5.jpg" alt="image of street view with the sunset in view">
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6">
+        <div class="my-card-type-2 card mb-4">
+          <img class="card-img" src="images/photo-gallery/6.jpg" alt="image of pillars with sun reflecting off window">
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6">
+        <div class="my-card-type-1 card mb-4">
+          <img class="card-img" src="images/photo-gallery/7.png" alt="image of celebratory lights">
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6">
+        <div class="my-card-type-2 card mb-4">
+          <img class="card-img" src="images/photo-gallery/8.png" alt="image of old-looking lamp">
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6">
+        <div class="my-card-type-1 card mb-4">
+          <img class="card-img" src="images/photo-gallery/9.jpg" alt="image of sun centered inside a swing">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- jQuery first, then Popper.js, then Bootstrap JS | used for the navbar-->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</body>
+</html>
+
